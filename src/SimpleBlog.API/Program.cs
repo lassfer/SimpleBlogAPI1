@@ -3,7 +3,7 @@ using SimpleBlog.API.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Добавляем сервисы в контейнер
+// Добавляем сервисы в контейнер...
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
